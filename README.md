@@ -13,5 +13,7 @@
    - cp noip2.sh /etc/init.d/noip2 (as root)
 5. Update service hooks/symlinks
    - update-rc.d noip2 defaults (as root)
-6. Start the noip-duc
+6. Create configuration
+   - noip2 -C (as root)
+7. Start the noip-duc
    - service noip2 start (as root)
